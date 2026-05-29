@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+  .hero__grid       { flex-direction: column !important; }
+  .cb7__grid        { flex-direction: column !important; }
+  .digital__row     { flex-direction: column !important; }
+  .digital__row--reverse { flex-direction: column !important; }
+}
+
+@media (max-width: 768px) {
+  .hero__phone      { display: none !important; }
+  .solutions__grid  { grid-template-columns: 1fr !important; }
+  .insights__grid   { grid-template-columns: 1fr !important; }
+  .cases__grid      { flex-direction: column !important; }
+  .footer__offices  { grid-template-columns: 1fr !important; }
+  .footer__links    { grid-template-columns: 1fr 1fr !important; }
+  .nav__links       { display: none !important; }
+  .cta-banner       { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .footer__links    { grid-template-columns: 1fr !important; }
+  .features__grid   { grid-template-columns: 1fr !important; }
+}

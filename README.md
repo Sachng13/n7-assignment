@@ -15,3 +15,7 @@ npm run dev
 ```
 
 Open the URL shown in the terminal (usually `http://localhost:3000`) to view the application.
+
+## Live Demo
+
+https://n7-assignment-brown.vercel.app/
